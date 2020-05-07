@@ -10,6 +10,7 @@ import java.math.BigDecimal;
 @Controller
 public class HelloController {
 
+
     @Value("${minMoney}")
     private BigDecimal minMoney;
 
